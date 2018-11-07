@@ -1,0 +1,18 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "jsonserver  && mock.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd static && nodemon server.js",
+    "dserver": "cd dynamic && nodemon server.js"
+  },
+  "author": "formatedzzz",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.12.1",
+    "mockjs": "^1.0.1-beta3",
+    "nodemon": "^1.17.3"
+  }
+}
